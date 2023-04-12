@@ -80,7 +80,18 @@ aside {
     padding:10px;
 }
 
+footer {
+  background-image:url(./images/background.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color:rgb(239, 236, 227);
+  padding: 50px;
+}
+
 /*links in main*/
+a {
+  cursor: pointer;
+}
 main a {
     font-weight: 900;
     text-decoration: none;
@@ -92,10 +103,15 @@ a[href="#pagetop"] {
     text-decoration: none;
     color:rgb(44, 128, 82);
     text-align: center;
+    display: block;
 }
 a:hover {
     color:rgba(17, 199, 138, 0.986);
     font-weight: 900;
+}
+
+a:visited {
+  color: rgb(245, 152, 31); 
 }
 
 /*images and flexbox settings*/
