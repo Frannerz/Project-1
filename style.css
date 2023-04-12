@@ -1,0 +1,185 @@
+html {
+    font-size: 16px;
+}
+
+body {
+  background-color:rgb(239, 236, 227);
+}
+
+/*header*/
+header {
+   padding: 3px 20px 40px 20px;
+   background-image: url(./images/background.jpg);
+   background-position: bottom;
+   background-color: rgb(6, 74, 47);
+   background-size: cover;
+   }
+
+  header h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    text-align: center;   
+    color:rgb(239, 236, 227);
+    font-family: 'Inconsolata', monospace;
+  }
+
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    min-width: 100px;
+    width: 20%;
+    padding: 0.5rem;
+    text-align: center; 
+    margin: 0 auto;
+   
+  }
+  nav a {
+    color:rgb(239, 236, 227);
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  
+  }
+  
+
+/*body*/
+.intro img {
+    border-radius: 50%;
+}
+h2 { 
+    font-size: 3rem;
+    text-align: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+   }
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+main {
+    margin: 50px;
+    font-family: 'Inconsolata', monospace;
+}
+
+article {
+    border-top: 2px grey solid;
+    padding-bottom:10px;
+   }
+
+p {
+    text-align:justify;
+}
+
+aside {
+    border: 2px solid black;
+    padding:10px;
+}
+
+/*links in main*/
+main a {
+    font-weight: 900;
+    text-decoration: none;
+    color:rgb(44, 128, 82);
+}
+
+a[href="#pagetop"] {
+    font-weight: 900;
+    text-decoration: none;
+    color:rgb(44, 128, 82);
+    text-align: center;
+}
+a:hover {
+    color:rgba(17, 199, 138, 0.986);
+    font-weight: 900;
+}
+
+/*images and flexbox settings*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 20%;
+    min-width: 200px;
+  }
+  .image {
+    flex-basis: 20%;
+    margin: 10px;
+
+  }
+.text{
+    padding: 20px;
+}
+  .image_center {
+    width: 50%;
+    margin: auto;
+    max-width: 300px;
+    display: block;
+    min-width: 300px
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+/* Responsiveness */
+
+@media only screen and (max-width: 480px) {
+    main {
+        font-size: 1rem;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .container {
+      display: block;
+    }
+
+    nav a{
+      color:rgb(6, 74, 47)
+    }
+    
+}
+
+
+/* Fonts
+Display fonts:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barrio&family=Monofett&family=Pacifico&family=Ribeye+Marrow&display=swap" 
+rel="stylesheet">
+font-family: 'Barrio', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Ribeye Marrow', cursive;
+
+
+Body fonts:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" 
+rel="stylesheet">
+
+font-family: 'Inconsolata', monospace;
+*/
+
+/* REMOVED
+
+linear-gradient(rgb(179, 101, 12), rgb(252, 252, 252));
+
+.profile_img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 10px solid rgb(239, 239, 239);
+  }
+*/
