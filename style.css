@@ -44,7 +44,9 @@ nav li {
   
   }
   
-
+nav {
+  text-align: center;
+}
 /*body*/
 .intro img {
     border-radius: 50%;
@@ -72,7 +74,7 @@ article {
    }
 
 p {
-    text-align:justify;
+    text-align: center;
 }
 
 aside {
@@ -88,6 +90,47 @@ footer {
   padding: 50px;
 }
 
+.center {
+  text-align: center;
+}
+
+/*JavaScript section*/
+button {
+  background-color: aquamarine;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+}
+
+button:hover {
+  background-color: rgb(9, 155, 106);
+  color: azure;
+  box-shadow: 2px 2px;
+}
+
+button:active {
+  background-color: rgb(9, 155, 106);
+  color: azure;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.holiday {
+  width: 500px;
+  border-radius: 10px;
+  background-color:rgb(63, 84, 73);
+  color:rgb(239, 236, 227);
+  font-weight: bold;
+  margin: 20px auto;
+}
+.holidayHeader {
+  font-size: 2rem;
+}
+.holidayText {
+  font-size: 1.5rem;
+}
+
+.holidayButton {
+  font-size: 1.5rem;
+}
 /*links in main*/
 a {
   cursor: pointer;
@@ -120,6 +163,13 @@ a:visited {
     align-items: center;
     justify-content: center;
   }
+
+  .containerIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   img {
     max-width: 100%;
     border-radius: 20%;
@@ -161,9 +211,20 @@ a:visited {
     nav a{
       color:rgb(6, 74, 47)
     }
-    
+    .holiday {
+      margin: 0;
+    }
+
+    .intro img {
+      display: block;
+    }
 }
 
+@media only screen and (min-width: 800px) {
+    main {
+      padding: 100px;
+    }
+}
 
 /* Fonts
 Display fonts:
