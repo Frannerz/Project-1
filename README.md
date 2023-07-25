@@ -17,12 +17,12 @@ I tried round images in the sections but thought they looked a bit odd next to t
 As I changed my mind and decided on a slightly altered layout, using flexbox display,
 I had to create some new placeholder text for each section.
 
-I left most of the responsiveness until I had finished adding content, in case I 
-changed anything else.
+I left most of the responsiveness until I had finished adding content, in case I changed anything else.
 
 ## Debugging
 I spent some time getting the responsive design right. The photos were too big for each section and would not display how I wanted them to.
 
+I realised that if I wanted perfectly round images, I would need to crop the originals so they were square.
 square pictures
 responsiveness
 getting links central
