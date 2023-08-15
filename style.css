@@ -153,9 +153,9 @@ a:hover {
     font-weight: 900;
 }
 
-a:visited {
+/* a:visited {
   color: rgb(245, 152, 31); 
-}
+} */
 
 /*images and flexbox settings*/
 .container {
